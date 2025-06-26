@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat;
+}
+.top-heading{
+    background-color: #E1FF8F;
+    width: 1440px;
+    height: 800px;
+    padding-top: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.top-heading__head{
+width: 768px;
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+
+    
+}
+
+.top-heading__text{
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.heading{
+    background-color:rgb(32, 32, 39);
+    width: 1440px;
+    height: 1470px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 94px;
+}
