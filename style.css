@@ -4,7 +4,7 @@
 }
 
 .center{
-    padding-left: calc(50% - 600px);
+    padding-left: calc(50% - 558px);
     padding-right: calc(50% - 600px);
 }
 
@@ -14,12 +14,20 @@ body{
 
 
 .top-heading{
-    background-image: url(img/Top-heading.png);
+    background-color: #E1FF8F;
+    background-image: 
+    url(img/big_star.svg),
+    url(img/Star_right.svg),
+    url(img/Star_right-top.svg),
+    url(img/Star_left_top.svg),
+    url(img/star_left.svg);
+    background-position:
+   856px -334px, 1014px 568px, 948px 538px, 157px 69px, 62px 93px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
+    
    height: 900px;
-   width:auto;
+   /* width:auto; */
     padding-top: 196px;
     /* display: flex;
     flex-direction: column;
@@ -38,7 +46,7 @@ line-height: 78px;
 }
 
 .top-heading__text{
- 
+ padding-top: 22px;
 font-size: 24px;
 font-weight: 400;
 line-height: 32px;
@@ -46,7 +54,7 @@ line-height: 32px;
 
 .top-heading__btn{
 
-margin-top: 64px;   
+margin-top: 49px;   
 font-family: inherit;
 width: 247px;
 height: 66px;
