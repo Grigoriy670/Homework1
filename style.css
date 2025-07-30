@@ -68,6 +68,12 @@ line-height: 141.69%;
     width: auto;
     height: 1470px;
     color: white;
+    background-image: url(img/Star_about.svg),
+    url(img/Star_big_about.svg),
+    url(img/Star_small_about.svg);
+    background-repeat: no-repeat;
+    background-position:
+    18px 824px, 951px 105px, 0px 768px;
   
     padding-top: 94px;
 }
@@ -78,7 +84,7 @@ line-height: 141.69%;
 }
 
 .product-box{
-    margin-top: 74px;
+    /* margin-top: 74px; */
     background-color: white;
     border-radius: 30px;
     min-width: 378px;
@@ -116,7 +122,7 @@ text-align: left;
 
 .product__text{
 border-radius: 52.58px;
-background: rgb(247, 247, 247);
+background-color: rgb(247, 247, 247);
 width: 108px;
 height: 36px;
 display: flex;
@@ -143,7 +149,7 @@ gap: 18px;
 padding: 32px 32px 36px 32px;}
 
 .Game-two{
-    margin-top: 74px;
+    margin-top: 11px;
     background-color: white;
     border-radius: 30px;
     min-width: 378px;
@@ -166,7 +172,9 @@ color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 32px;
+    column-gap: 32px;
+    
+    margin-top: 59px;
 }
 
 .product__game-three{
@@ -188,5 +196,27 @@ color: black;
 .product__game-four{
     background-image: url(img/game-four.png);
     background-repeat: no-repeat;
-    
+    background-color: white;
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 14px;
+padding: 32px 32px 36px 32px;
+height: 490px;
+ border-radius: 30px;
+ max-width: 314px;
+ width: 100%;
+ 
+
 }
+.product__head-four{
+color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+}
+
+
+
