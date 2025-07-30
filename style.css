@@ -83,6 +83,10 @@ line-height: 141.69%;
     display: inline-block;
 }
 
+.heading__link:hover{
+    transform: scale(1.1);
+}
+
 .product-box{
     /* margin-top: 74px; */
     background-color: white;
