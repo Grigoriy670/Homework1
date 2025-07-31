@@ -47,9 +47,11 @@ line-height: 32px;
 }
 
 .top-heading__btn{
-
+    display: flex;
+    justify-content: center;
+text-decoration: none;
 margin-top: 49px;   
-font-family: inherit;
+/* font-family: inherit; */
 width: 247px;
 height: 66px;
 box-sizing: border-box;
@@ -222,5 +224,38 @@ font-weight: 700;
 line-height: 39px;
 }
 
+.product__game-five{
+    background-image: url(img/game-five.png);
+    max-width: 314px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 30px;
+    min-height: 455px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 10px 0px;
+    padding: 32px 32px 36px 32px;
+    margin-top: 33px;
+}
 
+.product__game-six{
+    background-image: url(img/game-six.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 14px;
+padding: 32px 32px 36px 32px;
+height: 490px;
+ border-radius: 30px;
+ max-width: 314px;
+ width: 100%;
+ 
 
+}
