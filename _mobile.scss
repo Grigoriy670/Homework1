@@ -65,10 +65,7 @@ padding-left: 16px;
 .product-box{
     min-width: 343px;
 }
-.product{
-    height: 530px;
-    
-}
+
 
 .flex-contenier{
     display: flex;
@@ -80,7 +77,19 @@ padding-left: 16px;
     background-repeat: no-repeat;
     height: 285px;
     border-radius: 30px;
+    max-height: 530px;
 }
+
+.Game-two__product{
+    background-image: url(img/mobile-game-two.png);
+    overflow: hidden;
+}
+.Game-two{
+    max-width: 343px;
+    max-height: 530px;
+    
+}
+
 
 }
 

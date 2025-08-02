@@ -156,7 +156,7 @@ body {
   margin-top: 11px;
   background-color: white;
   border-radius: 30px;
-  min-width: 378px;
+  max-width: 378px;
 }
 
 .Game-two__head {
@@ -305,9 +305,6 @@ body {
   .product-box {
     min-width: 343px;
   }
-  .product {
-    height: 530px;
-  }
   .flex-contenier {
     display: flex;
     justify-content: center;
@@ -317,5 +314,14 @@ body {
     background-repeat: no-repeat;
     height: 285px;
     border-radius: 30px;
+    max-height: 530px;
+  }
+  .Game-two__product {
+    background-image: url(img/mobile-game-two.png);
+    overflow: hidden;
+  }
+  .Game-two {
+    max-width: 343px;
+    max-height: 530px;
   }
 }/*# sourceMappingURL=style.css.map */
