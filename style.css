@@ -318,7 +318,6 @@ body {
   }
   .Game-two__product {
     background-image: url(img/mobile-game-two.png);
-    overflow: hidden;
   }
   .Game-two {
     max-width: 343px;
