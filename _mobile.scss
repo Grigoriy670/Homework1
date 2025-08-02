@@ -1,0 +1,78 @@
+@media (max-width: 750px){
+.top-heading{
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    background-image: 
+    url(img/big-star_mobile.svg),
+    url(img/small-star.svg),
+    url(img/small_star_mobile.svg),
+    url(img/Star-top_mobile.svg),
+    url(img/Star-bottom_mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 227px -90px, 28px 114px, 76px 80px, 320px 734px, 301px 712px ;
+
+}
+
+.top-heading__head{
+    width: 296px;
+    font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+text-align: center;
+}
+
+.top-heading__text{
+width: 296px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+}
+
+.top-heading__btn{
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+font-weight: 600;
+line-height: 141.69%;
+}
+
+.heading__head{
+    display: none;
+}
+ .heading__text{
+    display: none;
+ }
+
+.heading-mobile{
+width: 250px;
+height: 49px;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+display: block;
+padding-left: 16px;
+}
+
+.heading{
+    height: 3740px;
+
+}
+
+.product-box{
+    display: flex;
+}
+.product{
+    height: 530px;
+    
+}
+
+
+
+
+}
+
+
