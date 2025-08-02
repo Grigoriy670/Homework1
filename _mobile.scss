@@ -63,15 +63,24 @@ padding-left: 16px;
 }
 
 .product-box{
-    display: flex;
+    min-width: 343px;
 }
 .product{
     height: 530px;
     
 }
 
+.flex-contenier{
+    display: flex;
+    justify-content: center;
+}
 
-
+.product{
+    background-image: url(img/mobile-game-one.png);
+    background-repeat: no-repeat;
+    height: 285px;
+    border-radius: 30px;
+}
 
 }
 
