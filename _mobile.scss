@@ -98,8 +98,8 @@ line-height: 141.69%;
 }
 .product__game-three{
     background-image: url(img/mobile-game-three.png);
-    
-    background-size: contain;
+    margin-top: 66px;
+    background-size: 348px;
 }
 
 .product__game-four{
@@ -131,6 +131,7 @@ line-height: 141.69%;
     font-weight: 700;
     line-height: 39px;
     color: black;
+    width: 285px;
 }
 
 .product__text-mobile{
@@ -138,7 +139,7 @@ line-height: 141.69%;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    width: 249px;
+    width: 277px;
     color: black;
 
 }
@@ -171,6 +172,10 @@ line-height: 141.69%;
 .Game-two__product{
             background-size: 346px;
         padding-top: 91px;
+}
+
+.product__game-three{
+    padding-top: 127px;
 }
 
 }
