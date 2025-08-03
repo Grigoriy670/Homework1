@@ -424,4 +424,7 @@ body {
   .product__head-four {
     display: none;
   }
+  .heading__link:hover {
+    transform: scale(1);
+  }
 }/*# sourceMappingURL=style.css.map */
