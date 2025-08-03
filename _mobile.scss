@@ -104,17 +104,28 @@ line-height: 141.69%;
 
 .product__game-four{
     background-image: url(img/mobile-game-four.png);
-    background-size: contain;
+    background-size: 346px;
+    max-width: 283px;
+    padding-top: 4px;
+    margin-top: 14px;
 }
 
 .product__game-five{
     background-image: url(img/mobile-game-five.png);
-    background-size: contain;
+    background-size: 346px;
+    max-width: 283px;
+    padding-top: 120px;
+    margin-top: 21px;
+
 }
 
 .product__game-six{
     background-image: url(img/mobile-game-six.png);
-    background-size: contain;
+    background-size: 346px;
+    max-width: 283px;
+    margin-top: 9px;
+    padding-top: 101px;
+
 }
 
 .product__text{
@@ -161,7 +172,7 @@ line-height: 141.69%;
 .product__flex-mobile{
  display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 26px;
     
 }
 
@@ -176,6 +187,10 @@ line-height: 141.69%;
 
 .product__game-three{
     padding-top: 127px;
+}
+
+.product__head-four{
+    display: none;
 }
 
 }
