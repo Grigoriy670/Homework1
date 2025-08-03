@@ -48,13 +48,15 @@ line-height: 141.69%;
  }
 
 .heading-mobile{
-width: 250px;
-height: 49px;
-font-size: 40px;
-font-weight: 700;
-line-height: 49px;
-display: block;
-padding-left: 16px;
+        width: 296px;
+        height: 15px;
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 16px;
+        display: block;
+        padding-left: 16px;
+        padding-top: 0px;
+        letter-spacing: 2px;
 }
 
 .heading{
@@ -62,34 +64,114 @@ padding-left: 16px;
 
 }
 
-.product-box{
-    min-width: 343px;
+.product-box {
+    min-width: 348px;
+   
 }
 
 
 .flex-contenier{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 16px;
 }
 
 .product{
     background-image: url(img/mobile-game-one.png);
     background-repeat: no-repeat;
+    background-size: 348px;
     height: 285px;
     border-radius: 30px;
     max-height: 530px;
+    padding-top: 88px;
 }
 
 .Game-two__product{
     background-image: url(img/mobile-game-two.png);
+    background-size: contain;
     
 }
 .Game-two{
-    max-width: 343px;
+    max-width: 346px;
     max-height: 530px;
     
 }
+.product__game-three{
+    background-image: url(img/mobile-game-three.png);
+    
+    background-size: contain;
+}
 
+.product__game-four{
+    background-image: url(img/mobile-game-four.png);
+    background-size: contain;
+}
+
+.product__game-five{
+    background-image: url(img/mobile-game-five.png);
+    background-size: contain;
+}
+
+.product__game-six{
+    background-image: url(img/mobile-game-six.png);
+    background-size: contain;
+}
+
+.product__text{
+    display: none;
+}
+
+.product__head{
+    display: none;
+}
+
+.product__head-mobile{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: black;
+}
+
+.product__text-mobile{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 249px;
+    color: black;
+
+}
+.product__btn-mobile{
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background-color: rgb(32, 32, 39);
+    width: 285px;
+    height: 55px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    color: white;
+
+}
+.product__flex-mobile{
+ display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.Game-two__head{
+    display: none;
+}
+
+.Game-two__product{
+            background-size: 346px;
+        padding-top: 91px;
+}
 
 }
 

@@ -107,7 +107,6 @@ line-height: 32px;
 }
 
 .product-box{
-    /* margin-top: 74px; */
     background-color: white;
     border-radius: 30px;
     min-width: 378px;
@@ -175,7 +174,7 @@ padding: 32px 32px 36px 32px;}
     margin-top: 11px;
     background-color: white;
     border-radius: 30px;
-    min-width: 378px;
+    max-width: 378px;
     
 
 }
@@ -273,8 +272,22 @@ height: 490px;
  border-radius: 30px;
  max-width: 314px;
  width: 100%;
+ }
  
+ .product__head-mobile{
+    display: none;
+ }
 
-}       
+ .product__text-mobile{
+    display: none;
+ }
+
+ .product__btn-mobile{
+ display: none;
+
+ }
+.product__flex-mobile{
+    display: none;
+}
 
 @import "mobile"
