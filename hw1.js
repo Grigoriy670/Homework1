@@ -11,17 +11,17 @@
 
 // // Задание 3
 
-const nameCreatorJS = 'Брендан Эйх';
+// const nameCreatorJS = 'Брендан Эйх';
 
-alert(nameCreatorJS);
+// alert(nameCreatorJS);
 
 // //Задание 4
 
-// let a = 10;
-// let b = 2;
+let a = 10;
+let b = 2;
 
-// console.log(a + b);
-// console.log(a - b);
-// console.log(a * b);
-// console.log(a / b);
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
 
