@@ -1,13 +1,13 @@
 //Задание 1
-let a = 10;
-alert(a);
-a = 20;
-alert(a);
+// let a = 10;
+// alert(a);
+// a = 20;
+// alert(a);
 
-// //Задание 2
+//Задание 2
 
-// const dateIphone = 2007;
-// alert(dateIphone);
+const dateIphone = 2007;
+alert(dateIphone);
 
 // // Задание 3
 
