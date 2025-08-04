@@ -6,14 +6,14 @@
 
 //Задание 2
 
-const dateIphone = 2007;
-alert(dateIphone);
+// const dateIphone = 2007;
+// alert(dateIphone);
 
 // // Задание 3
 
-// const nameCreatorJS = 'Брендан Эйх';
+const nameCreatorJS = 'Брендан Эйх';
 
-// alert(nameCreatorJS);
+alert(nameCreatorJS);
 
 // //Задание 4
 
