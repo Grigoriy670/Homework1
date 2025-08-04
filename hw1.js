@@ -49,8 +49,17 @@
 
 // Задание 8
 
-let age = prompt('Сколько вам лет?');
-alert(age);
+// let age = prompt('Сколько вам лет?');
+// alert(age);
+
+// Задание 9
+const user = {
+    name: 'Peter',
+    age: 27,
+    isAdmin: true,
+
+}
+
 
 
 
