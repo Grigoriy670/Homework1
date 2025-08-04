@@ -60,6 +60,10 @@ const user = {
 
 }
 
+// Задание 10
+
+let userName = prompt('Ваше имя?')
+alert( `Привет, ${userName}!`)
 
 
 
