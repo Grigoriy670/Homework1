@@ -40,167 +40,246 @@ font-weight: 600;
 line-height: 141.69%;
 }
 
-.heading__head{
-    display: none;
-}
- .heading__text{
-    display: none;
- }
-
-.heading-mobile{
-        width: 296px;
-        height: 15px;
-        font-size: 39px;
-        font-weight: 700;
-        line-height: 16px;
-        display: block;
-        padding-left: 16px;
-        padding-top: 0px;
-        letter-spacing: 2px;
-}
-
 .heading{
-    height: 3740px;
-
+    display: none;
 }
 
-.product-box {
-    min-width: 348px;
-   
+.mini-game__head{
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+margin-left: 16px;
+width: 250px;
+padding-top: 48px;
+padding-bottom: 48px;
 }
 
+.mini-game__flexbox{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 16px;
+}
 
-.flex-contenier{
+.mini-game__left{
+    max-width: 343px;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 16px;
+    flex-direction: column-reverse;
 }
 
-.product{
-    background-image: url(img/mobile-game-one.png);
-    background-repeat: no-repeat;
-    background-size: 348px;
-    height: 285px;
-    border-radius: 30px;
-    max-height: 530px;
-    padding-top: 88px;
+.mini-game__right{
+     max-width: 343px;
+    display: flex;
+    flex-direction: column;
 }
 
-.Game-two__product{
-    background-image: url(img/mobile-game-two.png);
-    background-size: contain;
-    
-}
-.Game-two{
-    max-width: 346px;
-    max-height: 530px;
-    
-}
-.product__game-three{
-    background-image: url(img/mobile-game-three.png);
-    margin-top: 66px;
-    background-size: 348px;
+.mini-game__flex-head{
+
+display: none;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+width: 285px;
+height: 39px;
 }
 
-.product__game-four{
-    background-image: url(img/mobile-game-four.png);
-    background-size: 346px;
-    max-width: 283px;
-    padding-top: 4px;
-    margin-top: 14px;
-}
-
-.product__game-five{
-    background-image: url(img/mobile-game-five.png);
-    background-size: 346px;
-    max-width: 283px;
-    padding-top: 120px;
-    margin-top: 21px;
-
-}
-
-.product__game-six{
-    background-image: url(img/mobile-game-six.png);
-    background-size: 346px;
-    max-width: 283px;
-    margin-top: 9px;
-    padding-top: 101px;
-
-}
-
-.product__text{
+.mini-game__flex-text{
     display: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+width: 255px;
+height: 40px;
 }
 
-.product__head{
+.mini-game__flex-two{
     display: none;
-}
-
-.product__head-mobile{
-    display: block;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 39px;
-    color: black;
     width: 285px;
+    font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+height: 78px;
 }
 
-.product__text-mobile{
-    display: block;
+
+.mini-game__flex{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 29.04px 29.04px 32.67px 29.04px;
+}
+.mini-game__flex-four{
+    display: none;
+    width: 285px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.mini-game__flex-three{
+    display: none;
+    width: 285px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    width: 277px;
-    color: black;
-
 }
-.product__btn-mobile{
+
+.mini-game__flex-right{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        padding: 29.04px 29.04px 32.67px 29.04px;
+}
+
+.mini-game__img{
+    display: none;
+}
+
+.mini-game__img-mobile{
     display: block;
-    box-sizing: border-box;
-    border: 1px solid rgb(32, 32, 39);
-    border-radius: 60px;
-    background-color: rgb(32, 32, 39);
+}
+
+.mini-game__flex-btn{
     width: 285px;
-    height: 55px;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 141.69%;
-    color: white;
-
-}
-.product__flex-mobile{
- display: flex;
-    flex-direction: column;
-    gap: 26px;
-    
-}
-
-.Game-two__head{
-    display: none;
-}
-
-.Game-two__product{
-            background-size: 346px;
-        padding-top: 91px;
-}
-
-.product__game-three{
-    padding-top: 127px;
-}
-
-.product__head-four{
-    display: none;
-}
-
-.heading__link:hover{
-    transform: scale(1.0);
+height: 55px;
+font-size: 16px;
+font-weight: 600;
+line-height: 141.69%;
+box-sizing: border-box;
+border: 1px solid rgb(32, 32, 39);
+border-radius: 60px;
+background-color: rgb(32, 32, 39);
 }
 
 .mini-game{
-    display: none;
+    min-height: 3740px;
 }
+
+.mini-game__mobile-head-three{
+    display: block;
+    width: 285px;
+    height: 78px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.mini-game__mobile-text-three{
+    display: block;
+    width: 275px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+.mini-game__mobile-head-one{
+display: block;
+width: 284.96px;
+height: 39px;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+
+}
+.mini-game__mobile-text-one{
+display: block;
+width: 249px;
+height: 40px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
 
 }
 
+.mini-game__mobile-head-two{
+display: block;
+width: 285px;
+height: 78px;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px
+}
+
+.mini-game__mobile-text-two{
+display: block;
+width: 233px;
+height: 40px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+    
+}
+
+.mini-game__mobile-head-four{
+display: block;
+width: 285px;
+height: 39px;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+
+}
+.mini-game__mobile-text-four{
+display: block;
+width: 285px;
+height: 40px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+    
+}
+
+.mini-game__mobile-head-five{
+display: block;
+width: 283x;
+height: 117px;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+
+}
+.mini-game__mobile-text-five{
+    display: block;
+    width: 285px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.mini-game__mobile-head-six{
+display: block;
+width: 283px;
+height: 117px;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+}
+.mini-game__mobile-text-six{
+display: block;
+width: 245px;
+height: 60px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+
+    
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+
+.footer__text{
+width: 190px;
+height: 20px;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+}
+
+}
 
