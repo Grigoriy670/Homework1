@@ -24,11 +24,18 @@
 
 // №3
 
-let d = 10
-let e = 101
-if (d >= 100 || e >= 100) {
-alert('Верно')    
-} else {
-    alert('Неверно')
+// let d = 10
+// let e = 101
+// if (d >= 100 || e >= 100) {
+// alert('Верно')    
+// } else {
+//     alert('Неверно')
     
-}
+// }
+
+// #4
+
+let a = '2';
+let b = '3';
+
+alert ( Number(a) + Number(b));
