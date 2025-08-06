@@ -13,7 +13,7 @@ body {
   font-family: Montserrat;
 }
 
-.top-heading {
+.welcome-block {
   background-color: #E1FF8F;
   background-image: url(img/big_star.svg), url(img/Star_right.svg), url(img/Star_right-top.svg), url(img/Star_left_top.svg), url(img/star_left.svg);
   background-position: 856px -334px, 1014px 568px, 948px 538px, 157px 69px, 62px 93px;
@@ -22,7 +22,7 @@ body {
   padding-top: 196px;
 }
 
-.top-heading__head {
+.welcome-block__title {
   width: 768px;
   font-size: 64px;
   font-weight: 700;
@@ -36,7 +36,7 @@ body {
   line-height: 32px;
 }
 
-.top-heading__btn {
+.welcome-block__button {
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -439,7 +439,7 @@ body {
 }
 
 @media (max-width: 750px) {
-  .top-heading {
+  .welcome-block {
     max-height: 700px;
     display: flex;
     flex-direction: column;
@@ -449,7 +449,7 @@ body {
     background-repeat: no-repeat;
     background-position: 227px -90px, 28px 114px, 76px 80px, 320px 734px, 301px 712px;
   }
-  .top-heading__head {
+  .welcome-block__title {
     width: 296px;
     font-size: 40px;
     font-weight: 700;
@@ -463,7 +463,7 @@ body {
     line-height: 20px;
     text-align: center;
   }
-  .top-heading__btn {
+  .welcome-block__button {
     width: 285px;
     height: 55px;
     font-size: 16px;

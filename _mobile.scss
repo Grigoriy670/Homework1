@@ -1,5 +1,5 @@
 @media (max-width: 750px){
-.top-heading{
+.welcome-block{
     max-height: 700px;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 
 }
 
-.top-heading__head{
+.welcome-block__title{
     width: 296px;
     font-size: 40px;
 font-weight: 700;
@@ -32,7 +32,7 @@ line-height: 20px;
 text-align: center;
 }
 
-.top-heading__btn{
+.welcome-block__button{
     width: 285px;
     height: 55px;
     font-size: 16px;
