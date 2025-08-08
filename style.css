@@ -481,6 +481,7 @@ body {
 
 .welcome-scrollbar {
   overflow: hidden;
+  background-color: #BDED35;
 }
 
 .welcome-scrollbar__img {
