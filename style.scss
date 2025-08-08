@@ -35,11 +35,17 @@ width: 768px;
 font-size: 64px;
 font-weight: 700;
 line-height: 78px;
-
-    
 }
 
-.top-heading__text{
+.heading__title{
+   
+width: 768px;
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+}
+
+.welcome-block__text{
  padding-top: 22px;
 font-size: 24px;
 font-weight: 400;
@@ -156,6 +162,44 @@ color: black;
 
 }
 
+.product-box__head{
+color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.product-box__text{
+border-radius: 52.58px;
+background-color: rgb(247, 247, 247);
+width: 108px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: black;
+
+
+}
+
+.Game-two__product-text{
+border-radius: 52.58px;
+background-color: rgb(247, 247, 247);
+width: 108px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: black;
+
+
+}
+
 .Game-two__product{
 background-image: url(img/arifmicetion.png);
 background-repeat: no-repeat;
@@ -199,7 +243,7 @@ color: black;
     margin-top: 59px;
 }
 
-.product__game-three{
+.product-box__game-three{
     background-image: url(img/game-three.png);
     background-repeat: no-repeat;
     background-color: white;
@@ -215,7 +259,7 @@ color: black;
 
 }
 
-.product__game-four{
+.product-box__game-four{
     background-image: url(img/game-four.png);
     background-repeat: no-repeat;
     background-color: white;
@@ -232,7 +276,7 @@ height: 490px;
  
 
 }
-.product__head-four{
+.product-box__head-four{
 color: rgb(32, 32, 39);
 font-family: Montserrat;
 font-size: 32px;
@@ -240,7 +284,7 @@ font-weight: 700;
 line-height: 39px;
 }
 
-.product__game-five{
+.product-box__game-five{
     background-image: url(img/game-five.png);
     max-width: 314px;
     width: 100%;
@@ -258,7 +302,7 @@ line-height: 39px;
     margin-top: 33px;
 }
 
-.product__game-six{
+.product-box__game-six{
     background-image: url(img/game-six.png);
     background-repeat: no-repeat;
     background-color: white;
@@ -482,5 +526,26 @@ display: none;
     color: black;
 
 }
+
+.welcome-scrollbar{
+ overflow: hidden;
+
+}
+
+.welcome-scrollbar__img{
+     animation: marquee 3000s  linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-100);
+    }
+    
+}
+
 
 @import "mobile.scss"

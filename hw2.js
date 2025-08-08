@@ -1,6 +1,6 @@
 // // #1
 // let password = 'password'
-// let UserPas = prompt('Введите пароль')
+// let userPas = prompt('Введите пароль')
 // if(UserPas === password ) {
 //     alert('Пароль введен верно')
 // }
@@ -42,9 +42,9 @@
 
 // #5
 
-let MonthNumber = 12
+let monthNumber = 12
 
-switch (MonthNumber) {
+switch (monthNumber) {
     case 1:
     case 2:
     case 12:   
