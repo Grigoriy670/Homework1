@@ -62,16 +62,39 @@
 // console.log(calc(5 , 10));
 
 
-function num () {
-    let number = prompt('Введите число')
-    if (isNaN(number)) {
-        return 'Переданный параметр не является числом'
+// function num () {
+//     let number = prompt('Введите число')
+//     if (isNaN(number)) {
+//         return 'Переданный параметр не является числом'
         
-    } 
-    else {
-        return `${number} в кубе равняется ${number ** 3}`
+//     } 
+//     else {
+//         return `${number} в кубе равняется ${number ** 3}`
         
-    }
+//     }
+// }
+
+// console.log(num());
+
+function getArea(){
+    return Math.PI * this.radius ** 2
 }
 
-console.log(num());
+function getPerimeter(){
+    return 2 * Math.PI * this.radius
+}
+
+const circle1 = {
+    radius: 10,
+    methodGetArea : getArea,
+    methodGetPerimeter : getPerimeter,
+}
+
+const circle2 = {
+    radius: 20,
+    methodGetArea : getArea,
+    methodGetPerimeter : getPerimeter,
+}
+
+console.log(circle1.methodGetArea());
+console.log(circle2.methodGetArea());
