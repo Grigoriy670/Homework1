@@ -28,6 +28,22 @@
 // console.log(isEven(2))
 // console.log(isEven(3)) 
 
-const up = (n) => n ** 2
+// const up = (n) => n ** 2
     
-console.log(up(5))
+// console.log(up(5))
+
+
+function age() {
+
+    let age = +prompt('Сколько тебе лет?')
+    if (age < 0) {
+       alert ('Вы ввели не правильное значение')
+    }  else if (age >= 0 || age <= 12) {
+        alert('Привет, Друг!') 
+    }
+  else{
+        alert('Добро пожаловать')
+}
+}
+
+age()
