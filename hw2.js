@@ -1,7 +1,7 @@
 // // #1
 // let password = 'password'
 // let userPas = prompt('Введите пароль')
-// if(UserPas === password ) {
+// if(userPas === password ) {
 //     alert('Пароль введен верно')
 // }
 // else{
@@ -67,7 +67,14 @@
 //         alert('Осень')
 //         break;     
 
+
 //     default:
 //          alert('Неверно')
 //         break;
 // }
+
+    default:
+         alert('Неверно')
+        break;
+}
+
