@@ -33,17 +33,30 @@
 // console.log(up(5))
 
 
-function age() {
+// function age() {
 
-    let age = +prompt('Сколько тебе лет?')
-    if (age < 0) {
-       alert ('Вы ввели не правильное значение')
-    }  else if (age >= 0 || age <= 12) {
-        alert('Привет, Друг!') 
+//     let age = +prompt('Сколько тебе лет?')
+//     if (age < 0) {
+//        alert ('Вы ввели не правильное значение')
+//     }  else if (age >= 0 || age <= 12) {
+//         alert('Привет, Друг!') 
+//     }
+//   else{
+//         alert('Добро пожаловать')
+// }
+// }
+
+// age()
+
+function calc(a, b) {
+    console.log(isNaN(a));
+    console.log(isNaN(b));
+    if (isNaN(a) || isNaN(b)) {
+        return 'Одно или оба значения не являются числом'
+    } else {
+        return a * b
+        
     }
-  else{
-        alert('Добро пожаловать')
-}
 }
 
-age()
+console.log(calc(5 , 10));
