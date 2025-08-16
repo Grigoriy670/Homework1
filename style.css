@@ -482,18 +482,19 @@ body {
 .welcome-scrollbar {
   overflow: hidden;
   background-color: #BDED35;
+  height: 90px;
 }
 
 .welcome-scrollbar__img {
-  animation: marquee 3000s linear infinite;
+  animation: move 10s linear infinite;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
+@keyframes move {
+  from {
+    transform: translateX(40%);
   }
-  100% {
-    transform: translateX(-100);
+  to {
+    transform: translateX(-100%);
   }
 }
 @media (max-width: 750px) {
@@ -732,5 +733,11 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
+  }
+  .welcome-scrollbar {
+    height: 52px;
+  }
+  .welcome-scrollbar__img {
+    height: 52px;
   }
 }/*# sourceMappingURL=style.css.map */
