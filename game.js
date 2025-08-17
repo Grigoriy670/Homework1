@@ -10,13 +10,13 @@ if(guess === randomNumber) {
 alert('Молодец! Поздравляю ты угадал число');
 break;
 }
-else if(guess < randomNumber ){
-    alert('Больше! Попробуешь еще раз?');
-    
+else if(guess > randomNumber ){
+   alert('Больше! Попробуй еще раз');
+   
 }    
 else {
-    alert('Меньше! Попробуешь еще раз?');
-    
+    alert('Меньше! Попробуй еще раз');
+   
 }
 }
 
