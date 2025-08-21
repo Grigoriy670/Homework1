@@ -13,15 +13,19 @@
 // const arr = [1, 3, 5, 10, 20];
 // console.log(arr.join(" "));
 
-const arr = [] ;
+// const arr = [] ;
 
 
-for (let i = 0; i < 3; i++) {
-    const arr2 = [];
-    for(let i = 0; i < 3; i++){
-        arr2.push(1);
-    }
-    arr.push(arr2)
-}
+// for (let i = 0; i < 3; i++) {
+//     const arr2 = [];
+//     for(let i = 0; i < 3; i++){
+//         arr2.push(1);
+//     }
+//     arr.push(arr2)
+// }
 
+// console.log(arr);
+
+const arr = [ 1, 1, 1];
+arr.push(2, 2, 2);
 console.log(arr);
