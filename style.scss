@@ -530,23 +530,22 @@ display: none;
 .welcome-scrollbar{
  overflow: hidden;
  background-color: #BDED35;
+ height: 90px;
+
 
 }
 
 .welcome-scrollbar__img{
-     animation: marquee 3000s  linear infinite;
+  animation: move 10s linear infinite;
+//   width: 100%;
+
 }
 
-@keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-
-    100%{
-        transform: translateX(-100);
-    }
-    
+@keyframes move {
+  from { transform: translateX(40%); }
+  to { transform: translateX(-100%); }
 }
+
 
 
 @import "mobile.scss"
