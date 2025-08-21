@@ -32,3 +32,49 @@ function guessNumberGameButton() {
         }
     }
 }
+
+
+function simpleArithmetic(){
+    const operations = ['+', '-', '/', '*']
+    let operation = operations[Math.floor(Math.random() * operations.length)];
+    let a, b , result;
+    let userAnswer;
+
+    a = Math.floor( Math.random() * 10 ) + 1;
+    b = Math.floor( Math.random() * 10 ) + 1;
+
+    switch (operation) {
+        case '+':
+            userAnswer = +prompt( `Сложите ${a} и ${b}` );
+            result = a + b;
+            break;
+
+            case '-':
+            userAnswer = +prompt( `Вычтите ${a} и ${b}` );
+            result = a - b;
+            break;
+
+            case '*':
+            userAnswer = +prompt( `Умножтье ${a} и ${b}` );
+            result = a * b;
+            break;
+
+            case '/':
+            userAnswer = +prompt( `Разделите ${a} и ${b}` );
+            result = a / b;
+            break;
+    }
+        if (userAnswer === null) {
+            return alert( 'Игра прервана' );
+        }
+
+
+
+        if (userAnswer === result) {
+            alert( 'Это верный ответ' )
+        } else {
+            alert( `Не верно! Правильный ответ ${result}` )
+            
+    }
+
+}
