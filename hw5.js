@@ -42,9 +42,12 @@
 //     alert('Не угадал');
 // }
 
-let str = 'abcdef';
-str = str.split( '' );
-console.log(str);
-str.reverse();
-str = str.join( '' );
-console.log(str);
+// let str = 'abcdef';
+// str = str.split( '' );
+// console.log(str);
+// str.reverse();
+// str = str.join( '' );
+// console.log(str);
+
+const arr = [[1, 2, 3],[4, 5, 6]];
+console.log(arr.flat());
