@@ -8,3 +8,7 @@ for(let i = 0; i < arr.length; i++) {
 
 const arr = [1, 5, 4, 10, 0, 3];
 console.log( arr.indexOf(4) );
+
+
+const arr = [1, 3, 5, 10, 20];
+console.log(arr.join(" "));
