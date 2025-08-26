@@ -139,6 +139,9 @@ function startQuiz() {
             score++;
             alert('✅ Правильно!');
         } else {
-            alert(`❌ Неправильно! Правильный ответ: ${question.correctAnswer}. ${question.options[question.correctAnswer - 1]}`);
+             alert(`❌ Неправильно! Правильный ответ: ${question.correctAnswer}`)
         }
-    }}
+    }
+
+        alert(`🎉 Викторина завершена!\nПравильных ответов: ${score} из ${quiz.length}`);
+    }
