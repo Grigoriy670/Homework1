@@ -80,3 +80,8 @@ function simpleArithmetic() {
         alert(`Не верно! Правильный ответ ${result}`);
     }
 }
+
+function reverseString() {
+    let text = prompt('Введите ваш текст');
+    alert(text === null ? 'Вы отменили ввод' : text.split('').reverse().join(''));
+}
