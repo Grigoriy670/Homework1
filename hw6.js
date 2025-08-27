@@ -31,3 +31,11 @@ function getRandomsNumber() {
 console.log(getRandomsNumber());
 
 
+function getRandomNumber(num) {
+    let arr = [];
+    for(let i = 0; i < num; i++) {
+        arr.push(Math.floor(Math.random() * num));
+    }
+    return arr;
+}
+console.log(getRandomNumber(10));
