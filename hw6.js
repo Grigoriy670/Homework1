@@ -34,8 +34,15 @@ console.log(getRandomsNumber());
 function getRandomNumber(num) {
     let arr = [];
     for(let i = 0; i < num; i++) {
-        arr.push(Math.floor(Math.random() * num));
+        return Array.from( {length: Math.floor(num / 2)}, () => Math.floor(Math.random() * num) )
     }
-    return arr;
+    
 }
 console.log(getRandomNumber(10));
+
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (min - max + 1)) + min
+    
+}
+console.log(getRandomInt(15, 10));
