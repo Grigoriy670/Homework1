@@ -47,4 +47,11 @@ function getRandomInt(min, max) {
 }
 console.log(getRandomInt(15, 10));
 
- console.log(new Date());
+console.log(new Date());
+
+const currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
+
+
+
