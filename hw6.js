@@ -11,3 +11,10 @@ function filter(arr,str) {
     return result;
 }
 console.log(filter(['JavaScript', 'Python', 'Java'],'ja'));
+
+
+const roundNumber = 32.58884;
+
+console.log(Math.floor(roundNumber));
+console.log(Math.round(roundNumber));
+console.log(Math.ceil(roundNumber));
