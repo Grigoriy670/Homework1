@@ -80,3 +80,68 @@ function simpleArithmetic() {
         alert(`Не верно! Правильный ответ ${result}`);
     }
 }
+
+function reverseString() {
+    let text = prompt('Введите ваш текст');
+    alert(text === null ? 'Вы отменили ввод' : text.split('').reverse().join(''));
+}
+
+
+const quiz = [
+    {
+        question: "Какой цвет небо?",
+        options: ["Красный", "Синий", "Зеленый"],
+        correctAnswer: 2,
+        explanation: "Синий - потому что рассеяние Рэлея делает небо синим!"
+    },
+    {
+        question: "Сколько дней в неделе?",
+        options: ["Шесть", "Семь", "Восемь"],
+        correctAnswer: 2,
+        explanation: "7 дней - эта система идет из Древнего Вавилона!"
+    },
+    {
+        question: "Сколько у человека пальцев на одной руке?",
+        options: ["Четыре", "Пять", "Шесть"],
+        correctAnswer: 2,
+        explanation: "5 пальцев - большой, указательный, средний, безымянный, мизинец!"
+    }
+];
+
+
+
+function startQuiz() {
+    let score = 0;
+
+    for(let i = 0; i < quiz.length; i++) {
+        const question = quiz[i];
+
+       
+        let optionsText = '';
+        for(let j = 0; j < question.options.length; j++) {
+            optionsText += `${j + 1}. ${question.options[j]}\n`;
+        }
+
+        
+        const answer = prompt(
+            `Вопрос ${i + 1}/${quiz.length}:\n${question.question}\n\n${optionsText}\nВведите номер ответа:`
+        );
+
+        if (answer === null) {
+            alert('Викторина прервана');
+            return;
+        }
+
+        const userAnswer = parseInt(answer);
+
+        
+        if (userAnswer === question.correctAnswer) {
+            score++;
+            alert('✅ Правильно!');
+        } else {
+             alert(`❌ Неправильно! Правильный ответ: ${question.correctAnswer}`)
+        }
+    }
+
+        alert(`🎉 Викторина завершена!\nПравильных ответов: ${score} из ${quiz.length}`);
+    }
