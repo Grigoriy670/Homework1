@@ -46,3 +46,5 @@ function getRandomInt(min, max) {
     
 }
 console.log(getRandomInt(15, 10));
+
+ console.log(new Date());
