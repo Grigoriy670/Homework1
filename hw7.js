@@ -47,3 +47,29 @@ setTimeout(() => {
     clearTimeout(interValid)
     console.log('Время прошло');
 }, 30000);
+
+
+function delayForSecond(callback) {
+    setTimeout (callback, 2000);
+}
+
+delayForSecond(function () {
+   console.log('Привет, Глеб!');
+})
+
+
+
+function delayForSeconds(cb) {
+    setTimeout(() => {
+        console.log('Прошла одна секунда');
+        if(cb) {  cb(); }
+    }, 1000)
+}
+
+function sayHi (name) {
+    console.log(`Привет, ${name}!`);
+}
+
+
+delayForSeconds(() => sayHi('Глеб'))
+
