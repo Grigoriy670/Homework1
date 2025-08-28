@@ -37,3 +37,13 @@ const peoples = [
 ];
 
 console.log(filter(peoples, isMale));
+
+
+const interValid = setInterval(() => {
+    console.log(new Date());
+}, 3000);
+
+setTimeout(() => {
+    clearTimeout(interValid)
+    console.log('Время прошло');
+}, 30000);
