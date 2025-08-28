@@ -47,3 +47,12 @@ setTimeout(() => {
     clearTimeout(interValid)
     console.log('Время прошло');
 }, 30000);
+
+
+function delayForSecond(callback) {
+    setTimeout (callback, 2000);
+}
+
+delayForSecond(function () {
+   console.log('Привет, Глеб!');
+})
