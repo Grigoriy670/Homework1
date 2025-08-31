@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, rem.</h1>
+    <button class="btn">Скрыть</button>
+<script>
+    const titleClass = document.querySelector('.title')
+    const btnEl = document.querySelector('.btn')
+    
+    btnEl.addEventListener('click', function (e) {
+        if (titleClass.style.display === 'none' ) {
+            titleClass.style.display = 'block';
+            btnEl.textContent = 'Скрыть элемент';
+            
+        } else {
+            titleClass.style.display = 'none';
+            btnEl.textContent = 'Показать элемент'
+        }
+    });
+
+</script>
+
+
+
+</body>
+</html>
