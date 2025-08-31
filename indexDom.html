@@ -9,7 +9,9 @@
     <h1 class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, rem.</h1>
     <button class="btn">Скрыть</button>
 
-    <p class="text__top">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Сбить, вдали эта образ родного алфавит которое сих. Пунктуация собрал большого жаренные там продолжил, запятой лучше скатился всемогущая диких океана?</p>
+    <p class="text__top">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты.
+         Сбить, вдали эта образ родного алфавит которое сих. 
+         Пунктуация собрал большого жаренные там продолжил, запятой лучше скатился всемогущая диких океана?</p>
     <button class="btn_two">Изменить цвет</button>
 
 
@@ -32,7 +34,11 @@
         <p class="description1" >Какойто текст...</p>
     
 
-        <button class="btn-body">Добавить текст</button>
+        <button class="btn-body">Добавить элемент</button>
+
+
+
+        <button class="del-description"> Удалить элемент</button>
 
 
 
@@ -81,11 +87,17 @@
 
     const addTextBody = document.querySelector('.btn-body')
     const nweParagraph = document.createElement('p');
-    nweParagraph.textContent = 'Текст добавленный в конец документа'
+    nweParagraph.textContent = 'Новый абзац'
     addTextBody.addEventListener('click', function (e) {
         document.body.appendChild(nweParagraph);
     });
 
+    const delEl = document.querySelector('.del-description')
+
+    delEl.addEventListener('click', function (e) {
+        const textEl = document.querySelector('.description');
+        textEl.remove();
+    });
 
 
 </script>
