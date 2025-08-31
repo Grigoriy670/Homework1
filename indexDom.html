@@ -18,7 +18,12 @@
     <button class="title-text__btn">Изменить текст</button>
 
 
-
+        <p class="description" >Какой-то текст.</p>
+   
+        <p class="description" >Какой то  текст..</p>
+   
+        <p class="description" >Какойто текст...</p>
+    
 
 
 
@@ -51,6 +56,12 @@
     btnEl3.addEventListener('click', function (e) {
         headingEl.textContent = 'Привет, мир!'
     });
+
+    const classFindText = document.querySelectorAll('.description')
+
+    classFindText.forEach(element => {
+        element.textContent = 'Измененный текст'
+    })
 
 </script>
 
