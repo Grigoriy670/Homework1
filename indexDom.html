@@ -8,10 +8,23 @@
 <body>
     <h1 class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, rem.</h1>
     <button class="btn">Скрыть</button>
+
+    <p class="text__top">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Сбить, вдали эта образ родного алфавит которое сих. Пунктуация собрал большого жаренные там продолжил, запятой лучше скатился всемогущая диких океана?</p>
+    <button class="btn_two">Изменить цвет</button>
+
+
+
+
+
+
+
+
+
 <script>
     const titleClass = document.querySelector('.title')
     const btnEl = document.querySelector('.btn')
-    
+
+   
     btnEl.addEventListener('click', function (e) {
         if (titleClass.style.display === 'none' ) {
             titleClass.style.display = 'block';
@@ -22,6 +35,16 @@
             btnEl.textContent = 'Показать элемент'
         }
     });
+
+    const titleTopEl = document.querySelector('.text__top');
+    const btnEl2 = document.querySelector('.btn_two');
+
+    btnEl2.addEventListener('click', function (e) {
+            titleTopEl.style.color = 'blue'
+    });
+    
+
+
 
 </script>
 
