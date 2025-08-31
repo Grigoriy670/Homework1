@@ -32,6 +32,8 @@
         <p class="description1" >Какойто текст...</p>
     
 
+        <button class="btn-body">Добавить текст</button>
+
 
 
 <script>
@@ -77,8 +79,14 @@
         element.textContent = 'Новый текст'
     })
 
+    const addTextBody = document.querySelector('.btn-body')
+    const nweParagraph = document.createElement('p');
+    nweParagraph.textContent = 'Текст добавленный в конец документа'
+    addTextBody.addEventListener('click', function (e) {
+        document.body.appendChild(nweParagraph);
+    });
 
-    
+
 
 </script>
 
