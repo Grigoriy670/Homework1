@@ -13,7 +13,9 @@
     <button class="btn_two">Изменить цвет</button>
 
 
-
+    
+    <h1 class="title_text">Какой-то заголовок</h1>
+    <button class="title-text__btn">Изменить текст</button>
 
 
 
@@ -43,8 +45,12 @@
             titleTopEl.style.color = 'blue'
     });
     
+    const headingEl = document.querySelector('.title_text')
+    const btnEl3 = document.querySelector('.title-text__btn')
 
-
+    btnEl3.addEventListener('click', function (e) {
+        headingEl.textContent = 'Привет, мир!'
+    });
 
 </script>
 
