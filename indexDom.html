@@ -23,6 +23,13 @@
         <p class="description" >Какой то  текст..</p>
    
         <p class="description" >Какойто текст...</p>
+
+
+         <p class="description1" >Какой-то текст.</p>
+   
+        <p class="description1" >Какой то  текст..</p>
+   
+        <p class="description1" >Какойто текст...</p>
     
 
 
@@ -62,6 +69,16 @@
     classFindText.forEach(element => {
         element.textContent = 'Измененный текст'
     })
+
+
+        const classFindTextEl = document.querySelectorAll('.description1')
+
+    classFindTextEl.forEach(element => {
+        element.textContent = 'Новый текст'
+    })
+
+
+    
 
 </script>
 
