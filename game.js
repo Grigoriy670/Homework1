@@ -199,3 +199,5 @@ function rockPaperScissors() {
         alert(`Компьютер выиграл! ${computerChoice} побеждает ${userChoice}`);
     }
 }
+
+
