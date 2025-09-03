@@ -156,7 +156,7 @@
 <p class="mini-game__mobile-text-six">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
 <h2 class="mini-game__flex-two">Генератор случайных <br> цветов</h2>
 <p class="mini-game__flex-four">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
-<button class="mini-game__flex-btn">Играть!</button>
+<button id="colorButton" class="mini-game__flex-btn">Играть!</button>
 </div>
 </article>
 </div>
@@ -168,7 +168,47 @@
 
 
 <script src="game.js"></script>
-<!-- <script src="hw7.js"></script> -->
+
+<script>
+    const colorButton = document.getElementById('colorButton');
+    const gameSection = document.querySelector('.mini-game');
+    function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+   function getRandomHexColor() {
+    const hexChars = '0123456789ABCDEF';
+    let color = '#';
+
+    for (let i = 0; i < 6; i++) {
+        const randomIndex = getRandomNumber(0, 15);
+        color += hexChars[randomIndex];
+        
+    }
+
+        return color;
+
+   } 
+
+   function showColorInfo(hexColor) {
+        alert('Сгенерирован цвет: ' + hexColor);
+   }
+
+   function handleButtonClick() {
+    const randomColor = getRandomHexColor();
+
+    showColorInfo(randomColor);
+
+    gameSection.style.backgroundColor = randomColor;
+
+    alert('Цвет фона изменен на: ' + randomColor);
+   }
+
+   colorButton.addEventListener('click', handleButtonClick);
+
+
+</script>
+
 
 
 
